@@ -1,0 +1,160 @@
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfólio Pessoal</title>
+
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+     
+   
+    <!-- Menu -->
+    <header>
+        <nav class="navbar">
+
+            
+            <div class="logo">VFJunior</div>
+
+            <ul class="menu-links" id="menu-links">
+
+                <li><a href="#sobre">Sobre mim</a></li>
+                <li><a href="#formacao">Formação </a></li>
+                <li><a href="#portfolio">Portfólio</a></li>
+                <li><a href="#contato"> Contato </a></li>
+                
+            </ul>
+            <div class="menu-icon" id="menu-icon">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+             <!-- Botão de tema -->
+            <button id="temaBtn"> 🌓 </button> 
+            
+               
+        </nav>    
+    </header>
+
+    <main>
+
+        <!-- SOBRE MIM -->
+        <section id="sobre" class="caixa">
+            <h2>Sobre mim</h2>
+
+            <p>
+                Meu nome é Vlademir Ferreira Junior e sou estudante de
+                Análise e Desenvolvimento de Sistemas.
+            </p>
+
+            <p>
+                Tenho interesse em desenvolvimento web, banco de dados,
+                eletrônica e tecnologia.
+            </p>
+
+            <h3>Hobbies</h3>
+
+            <ul>
+                <li>Tocar teclado e sintetizadores</li>
+                <li>Programação</li>
+                <li>Eletrônica</li>
+                <li>Jogos e tecnologia</li>
+            </ul>
+        </section>
+
+        <!-- FORMAÇÃO -->
+        <section id="formacao" class="caixa">
+            <h2>Formação</h2>
+
+            <p>
+                <strong>Curso:</strong>
+                Análise e Desenvolvimento de Sistemas
+            </p>
+
+            <p>
+                <strong>Formação mais recente:</strong>
+                Ensino Superior em andamento
+            </p>
+
+            <h3>Cursos</h3>
+
+            <ul>
+                <li>HTML5 e CSS3</li>
+                <li>JavaScript</li>
+                <li>MySQL</li>
+                <li>Linux</li>
+            </ul>
+
+            <h3>Idiomas</h3>
+
+            <ul>
+                <li>Português - Nativo</li>
+                <li>Inglês - Básico</li>
+            </ul>
+        </section>
+
+        <!-- PORTFÓLIO -->
+        <section id="portfolio" class="caixa">
+            <h2>Portfólio</h2>
+
+            <p>Projetos desenvolvidos:</p>
+
+            <ul>
+                <li>
+                    <a href="#" target="_blank">
+                        Site Currículo Online
+                    </a>
+                </li>
+
+                <li>
+                    <a href="#" target="_blank">
+                        Sistema de Ordem de Serviço
+                    </a>
+                </li>
+
+                <li>
+                    <a href="#" target="_blank">
+                        Banco de Dados MySQL
+                    </a>
+                </li>
+
+                <li>
+                    <a href="#" target="_blank">
+                        Diagramas UML
+                    </a>
+                </li>
+            </ul>
+        </section>
+
+        <!-- CONTATO -->
+        <section id="contato" class="caixa">
+            <h2>Contato</h2>
+
+            <form id="formContato">
+
+                <label>Nome:</label>
+                <input type="text" id="nome">
+
+                <label>E-mail:</label>
+                <input type="email" id="email">
+
+                <label>Mensagem:</label>
+                <textarea id="mensagem"></textarea>
+
+                <button type="submit">
+                    Enviar Mensagem
+                </button>
+
+            </form>
+
+            <div id="mensagemStatus"></div>
+        </section>
+
+    </main>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
