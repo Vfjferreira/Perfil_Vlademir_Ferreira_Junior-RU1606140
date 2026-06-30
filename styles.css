@@ -223,23 +223,25 @@ form button{
 
     .menu-icon {
                 display: flex;
-                margin-right: 15px;
+               
             }
     .menu-links {
         display: none;
         color: white;
         text-decoration: none;        
         transition: 0.3s;
+        margin-left: 260px;
         
     
     }
     .menu-links.active {
         display: flex;
         width:120px;
-        margin-left: 250px;
+        margin-left: 150px;
         gap:0px;
                     
-    }            
+    }  
+    
     nav ul{
         display:none;
         flex-direction:column;
